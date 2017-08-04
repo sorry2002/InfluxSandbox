@@ -1,0 +1,14 @@
+name: telegraf
+name query
+---- -----
+
+
+name: _internal
+name query
+---- -----
+
+
+name: logRequest
+name query
+---- -----
+

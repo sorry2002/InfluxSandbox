@@ -1,0 +1,288 @@
+name: runtime
+Alloc    Frees   HeapAlloc HeapIdle HeapInUse HeapObjects HeapReleased HeapSys  Lookups Mallocs NumGC NumGoroutine PauseTotalNs Sys      TotalAlloc
+-----    -----   --------- -------- --------- ----------- ------------ -------  ------- ------- ----- ------------ ------------ ---      ----------
+47339128 3870834 47339128  23085056 48840704  484701      6217728      71925760 8225    4355535 50    182          78170492     78977272 890693032
+
+
+name: queryExecutor
+queriesActive queriesExecuted queriesFinished queryDurationNs
+------------- --------------- --------------- ---------------
+1             417             416             92311975
+
+
+name: shard
+tags: database=telegraf, engine=tsm1, id=2, path=/var/lib/influxdb/data/telegraf/autogen/2, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/telegraf/autogen/2
+diskBytes fieldsCreate seriesCreate writeBytes writePointsDropped writePointsErr writePointsOk writeReq writeReqErr writeReqOk
+--------- ------------ ------------ ---------- ------------------ -------------- ------------- -------- ----------- ----------
+13079382  0            28           0          0                  0              0             0        0           0
+
+
+name: tsm1_engine
+tags: database=telegraf, engine=tsm1, id=2, path=/var/lib/influxdb/data/telegraf/autogen/2, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/telegraf/autogen/2
+cacheCompactionDuration cacheCompactionErr cacheCompactions cacheCompactionsActive tsmFullCompactionDuration tsmFullCompactionErr tsmFullCompactions tsmFullCompactionsActive tsmLevel1CompactionDuration tsmLevel1CompactionErr tsmLevel1Compactions tsmLevel1CompactionsActive tsmLevel2CompactionDuration tsmLevel2CompactionErr tsmLevel2Compactions tsmLevel2CompactionsActive tsmLevel3CompactionDuration tsmLevel3CompactionErr tsmLevel3Compactions tsmLevel3CompactionsActive tsmOptimizeCompactionDuration tsmOptimizeCompactionErr tsmOptimizeCompactions tsmOptimizeCompactionsActive
+----------------------- ------------------ ---------------- ---------------------- ------------------------- -------------------- ------------------ ------------------------ --------------------------- ---------------------- -------------------- -------------------------- --------------------------- ---------------------- -------------------- -------------------------- --------------------------- ---------------------- -------------------- -------------------------- ----------------------------- ------------------------ ---------------------- ----------------------------
+0                       0                  0                0                      0                         0                    0                  0                        0                           0                      0                    0                          0                           0                      0                    0                          0                           0                      0                    0                          0                             0                        0                      0
+
+
+name: tsm1_cache
+tags: database=telegraf, engine=tsm1, id=2, path=/var/lib/influxdb/data/telegraf/autogen/2, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/telegraf/autogen/2
+WALCompactionTimeMs cacheAgeMs cachedBytes diskBytes memBytes snapshotCount writeDropped writeErr writeOk
+------------------- ---------- ----------- --------- -------- ------------- ------------ -------- -------
+0                   4493038    0           0         0        0             0            0        0
+
+
+name: tsm1_filestore
+tags: database=telegraf, engine=tsm1, id=2, path=/var/lib/influxdb/data/telegraf/autogen/2, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/telegraf/autogen/2
+diskBytes numFiles
+--------- --------
+13079382  1
+
+
+name: tsm1_wal
+tags: database=telegraf, engine=tsm1, id=2, path=/var/lib/influxdb/data/telegraf/autogen/2, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/telegraf/autogen/2
+currentSegmentDiskBytes oldSegmentsDiskBytes writeErr writeOk
+----------------------- -------------------- -------- -------
+0                       0                    0        0
+
+
+name: shard
+tags: database=logRequest, engine=tsm1, id=4, path=/var/lib/influxdb/data/logRequest/autogen/4, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/logRequest/autogen/4
+diskBytes fieldsCreate seriesCreate writeBytes writePointsDropped writePointsErr writePointsOk writeReq writeReqErr writeReqOk
+--------- ------------ ------------ ---------- ------------------ -------------- ------------- -------- ----------- ----------
+55413     0            185          0          0                  0              0             0        0           0
+
+
+name: tsm1_engine
+tags: database=logRequest, engine=tsm1, id=4, path=/var/lib/influxdb/data/logRequest/autogen/4, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/logRequest/autogen/4
+cacheCompactionDuration cacheCompactionErr cacheCompactions cacheCompactionsActive tsmFullCompactionDuration tsmFullCompactionErr tsmFullCompactions tsmFullCompactionsActive tsmLevel1CompactionDuration tsmLevel1CompactionErr tsmLevel1Compactions tsmLevel1CompactionsActive tsmLevel2CompactionDuration tsmLevel2CompactionErr tsmLevel2Compactions tsmLevel2CompactionsActive tsmLevel3CompactionDuration tsmLevel3CompactionErr tsmLevel3Compactions tsmLevel3CompactionsActive tsmOptimizeCompactionDuration tsmOptimizeCompactionErr tsmOptimizeCompactions tsmOptimizeCompactionsActive
+----------------------- ------------------ ---------------- ---------------------- ------------------------- -------------------- ------------------ ------------------------ --------------------------- ---------------------- -------------------- -------------------------- --------------------------- ---------------------- -------------------- -------------------------- --------------------------- ---------------------- -------------------- -------------------------- ----------------------------- ------------------------ ---------------------- ----------------------------
+0                       0                  0                0                      0                         0                    0                  0                        0                           0                      0                    0                          0                           0                      0                    0                          0                           0                      0                    0                          0                             0                        0                      0
+
+
+name: tsm1_cache
+tags: database=logRequest, engine=tsm1, id=4, path=/var/lib/influxdb/data/logRequest/autogen/4, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/logRequest/autogen/4
+WALCompactionTimeMs cacheAgeMs cachedBytes diskBytes memBytes snapshotCount writeDropped writeErr writeOk
+------------------- ---------- ----------- --------- -------- ------------- ------------ -------- -------
+0                   4493086    0           0         0        0             0            0        0
+
+
+name: tsm1_filestore
+tags: database=logRequest, engine=tsm1, id=4, path=/var/lib/influxdb/data/logRequest/autogen/4, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/logRequest/autogen/4
+diskBytes numFiles
+--------- --------
+55413     1
+
+
+name: tsm1_wal
+tags: database=logRequest, engine=tsm1, id=4, path=/var/lib/influxdb/data/logRequest/autogen/4, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/logRequest/autogen/4
+currentSegmentDiskBytes oldSegmentsDiskBytes writeErr writeOk
+----------------------- -------------------- -------- -------
+0                       0                    0        0
+
+
+name: shard
+tags: database=telegraf, engine=tsm1, id=9, path=/var/lib/influxdb/data/telegraf/autogen/9, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/telegraf/autogen/9
+diskBytes fieldsCreate seriesCreate writeBytes writePointsDropped writePointsErr writePointsOk writeReq writeReqErr writeReqOk
+--------- ------------ ------------ ---------- ------------------ -------------- ------------- -------- ----------- ----------
+2845568   0            28           0          0                  0              0             0        0           0
+
+
+name: tsm1_engine
+tags: database=telegraf, engine=tsm1, id=9, path=/var/lib/influxdb/data/telegraf/autogen/9, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/telegraf/autogen/9
+cacheCompactionDuration cacheCompactionErr cacheCompactions cacheCompactionsActive tsmFullCompactionDuration tsmFullCompactionErr tsmFullCompactions tsmFullCompactionsActive tsmLevel1CompactionDuration tsmLevel1CompactionErr tsmLevel1Compactions tsmLevel1CompactionsActive tsmLevel2CompactionDuration tsmLevel2CompactionErr tsmLevel2Compactions tsmLevel2CompactionsActive tsmLevel3CompactionDuration tsmLevel3CompactionErr tsmLevel3Compactions tsmLevel3CompactionsActive tsmOptimizeCompactionDuration tsmOptimizeCompactionErr tsmOptimizeCompactions tsmOptimizeCompactionsActive
+----------------------- ------------------ ---------------- ---------------------- ------------------------- -------------------- ------------------ ------------------------ --------------------------- ---------------------- -------------------- -------------------------- --------------------------- ---------------------- -------------------- -------------------------- --------------------------- ---------------------- -------------------- -------------------------- ----------------------------- ------------------------ ---------------------- ----------------------------
+0                       0                  0                0                      0                         0                    0                  0                        0                           0                      0                    0                          0                           0                      0                    0                          0                           0                      0                    0                          0                             0                        0                      0
+
+
+name: tsm1_cache
+tags: database=telegraf, engine=tsm1, id=9, path=/var/lib/influxdb/data/telegraf/autogen/9, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/telegraf/autogen/9
+WALCompactionTimeMs cacheAgeMs cachedBytes diskBytes memBytes snapshotCount writeDropped writeErr writeOk
+------------------- ---------- ----------- --------- -------- ------------- ------------ -------- -------
+0                   4493036    0           0         0        0             0            0        0
+
+
+name: tsm1_filestore
+tags: database=telegraf, engine=tsm1, id=9, path=/var/lib/influxdb/data/telegraf/autogen/9, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/telegraf/autogen/9
+diskBytes numFiles
+--------- --------
+2845568   1
+
+
+name: tsm1_wal
+tags: database=telegraf, engine=tsm1, id=9, path=/var/lib/influxdb/data/telegraf/autogen/9, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/telegraf/autogen/9
+currentSegmentDiskBytes oldSegmentsDiskBytes writeErr writeOk
+----------------------- -------------------- -------- -------
+0                       0                    0        0
+
+
+name: shard
+tags: database=_internal, engine=tsm1, id=11, path=/var/lib/influxdb/data/_internal/monitor/11, retentionPolicy=monitor, walPath=/var/lib/influxdb/wal/_internal/monitor/11
+diskBytes fieldsCreate seriesCreate writeBytes writePointsDropped writePointsErr writePointsOk writeReq writeReqErr writeReqOk
+--------- ------------ ------------ ---------- ------------------ -------------- ------------- -------- ----------- ----------
+287994    0            77           0          0                  0              0             0        0           0
+
+
+name: tsm1_engine
+tags: database=_internal, engine=tsm1, id=11, path=/var/lib/influxdb/data/_internal/monitor/11, retentionPolicy=monitor, walPath=/var/lib/influxdb/wal/_internal/monitor/11
+cacheCompactionDuration cacheCompactionErr cacheCompactions cacheCompactionsActive tsmFullCompactionDuration tsmFullCompactionErr tsmFullCompactions tsmFullCompactionsActive tsmLevel1CompactionDuration tsmLevel1CompactionErr tsmLevel1Compactions tsmLevel1CompactionsActive tsmLevel2CompactionDuration tsmLevel2CompactionErr tsmLevel2Compactions tsmLevel2CompactionsActive tsmLevel3CompactionDuration tsmLevel3CompactionErr tsmLevel3Compactions tsmLevel3CompactionsActive tsmOptimizeCompactionDuration tsmOptimizeCompactionErr tsmOptimizeCompactions tsmOptimizeCompactionsActive
+----------------------- ------------------ ---------------- ---------------------- ------------------------- -------------------- ------------------ ------------------------ --------------------------- ---------------------- -------------------- -------------------------- --------------------------- ---------------------- -------------------- -------------------------- --------------------------- ---------------------- -------------------- -------------------------- ----------------------------- ------------------------ ---------------------- ----------------------------
+0                       0                  0                0                      0                         0                    0                  0                        0                           0                      0                    0                          0                           0                      0                    0                          0                           0                      0                    0                          0                             0                        0                      0
+
+
+name: tsm1_cache
+tags: database=_internal, engine=tsm1, id=11, path=/var/lib/influxdb/data/_internal/monitor/11, retentionPolicy=monitor, walPath=/var/lib/influxdb/wal/_internal/monitor/11
+WALCompactionTimeMs cacheAgeMs cachedBytes diskBytes memBytes snapshotCount writeDropped writeErr writeOk
+------------------- ---------- ----------- --------- -------- ------------- ------------ -------- -------
+0                   4493027    0           0         0        0             0            0        0
+
+
+name: tsm1_filestore
+tags: database=_internal, engine=tsm1, id=11, path=/var/lib/influxdb/data/_internal/monitor/11, retentionPolicy=monitor, walPath=/var/lib/influxdb/wal/_internal/monitor/11
+diskBytes numFiles
+--------- --------
+287994    1
+
+
+name: tsm1_wal
+tags: database=_internal, engine=tsm1, id=11, path=/var/lib/influxdb/data/_internal/monitor/11, retentionPolicy=monitor, walPath=/var/lib/influxdb/wal/_internal/monitor/11
+currentSegmentDiskBytes oldSegmentsDiskBytes writeErr writeOk
+----------------------- -------------------- -------- -------
+0                       0                    0        0
+
+
+name: shard
+tags: database=telegraf, engine=tsm1, id=12, path=/var/lib/influxdb/data/telegraf/autogen/12, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/telegraf/autogen/12
+diskBytes fieldsCreate seriesCreate writeBytes writePointsDropped writePointsErr writePointsOk writeReq writeReqErr writeReqOk
+--------- ------------ ------------ ---------- ------------------ -------------- ------------- -------- ----------- ----------
+1792574   0            28           0          0                  0              13694         899      0           899
+
+
+name: tsm1_engine
+tags: database=telegraf, engine=tsm1, id=12, path=/var/lib/influxdb/data/telegraf/autogen/12, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/telegraf/autogen/12
+cacheCompactionDuration cacheCompactionErr cacheCompactions cacheCompactionsActive tsmFullCompactionDuration tsmFullCompactionErr tsmFullCompactions tsmFullCompactionsActive tsmLevel1CompactionDuration tsmLevel1CompactionErr tsmLevel1Compactions tsmLevel1CompactionsActive tsmLevel2CompactionDuration tsmLevel2CompactionErr tsmLevel2Compactions tsmLevel2CompactionsActive tsmLevel3CompactionDuration tsmLevel3CompactionErr tsmLevel3Compactions tsmLevel3CompactionsActive tsmOptimizeCompactionDuration tsmOptimizeCompactionErr tsmOptimizeCompactions tsmOptimizeCompactionsActive
+----------------------- ------------------ ---------------- ---------------------- ------------------------- -------------------- ------------------ ------------------------ --------------------------- ---------------------- -------------------- -------------------------- --------------------------- ---------------------- -------------------- -------------------------- --------------------------- ---------------------- -------------------- -------------------------- ----------------------------- ------------------------ ---------------------- ----------------------------
+0                       0                  0                0                      0                         0                    0                  0                        0                           0                      0                    0                          0                           0                      0                    0                          0                           0                      0                    0                          0                             0                        0                      0
+
+
+name: tsm1_cache
+tags: database=telegraf, engine=tsm1, id=12, path=/var/lib/influxdb/data/telegraf/autogen/12, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/telegraf/autogen/12
+WALCompactionTimeMs cacheAgeMs cachedBytes diskBytes memBytes snapshotCount writeDropped writeErr writeOk
+------------------- ---------- ----------- --------- -------- ------------- ------------ -------- -------
+0                   4493141    0           0         1728624  0             0            0        1026
+
+
+name: tsm1_filestore
+tags: database=telegraf, engine=tsm1, id=12, path=/var/lib/influxdb/data/telegraf/autogen/12, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/telegraf/autogen/12
+diskBytes numFiles
+--------- --------
+0         0
+
+
+name: tsm1_wal
+tags: database=telegraf, engine=tsm1, id=12, path=/var/lib/influxdb/data/telegraf/autogen/12, retentionPolicy=autogen, walPath=/var/lib/influxdb/wal/telegraf/autogen/12
+currentSegmentDiskBytes oldSegmentsDiskBytes writeErr writeOk
+----------------------- -------------------- -------- -------
+1576043                 225293               0        899
+
+
+name: shard
+tags: database=_internal, engine=tsm1, id=13, path=/var/lib/influxdb/data/_internal/monitor/13, retentionPolicy=monitor, walPath=/var/lib/influxdb/wal/_internal/monitor/13
+diskBytes fieldsCreate seriesCreate writeBytes writePointsDropped writePointsErr writePointsOk writeReq writeReqErr writeReqOk
+--------- ------------ ------------ ---------- ------------------ -------------- ------------- -------- ----------- ----------
+7206366   0            77           0          0                  0              31381         448      0           448
+
+
+name: tsm1_engine
+tags: database=_internal, engine=tsm1, id=13, path=/var/lib/influxdb/data/_internal/monitor/13, retentionPolicy=monitor, walPath=/var/lib/influxdb/wal/_internal/monitor/13
+cacheCompactionDuration cacheCompactionErr cacheCompactions cacheCompactionsActive tsmFullCompactionDuration tsmFullCompactionErr tsmFullCompactions tsmFullCompactionsActive tsmLevel1CompactionDuration tsmLevel1CompactionErr tsmLevel1Compactions tsmLevel1CompactionsActive tsmLevel2CompactionDuration tsmLevel2CompactionErr tsmLevel2Compactions tsmLevel2CompactionsActive tsmLevel3CompactionDuration tsmLevel3CompactionErr tsmLevel3Compactions tsmLevel3CompactionsActive tsmOptimizeCompactionDuration tsmOptimizeCompactionErr tsmOptimizeCompactions tsmOptimizeCompactionsActive
+----------------------- ------------------ ---------------- ---------------------- ------------------------- -------------------- ------------------ ------------------------ --------------------------- ---------------------- -------------------- -------------------------- --------------------------- ---------------------- -------------------- -------------------------- --------------------------- ---------------------- -------------------- -------------------------- ----------------------------- ------------------------ ---------------------- ----------------------------
+0                       0                  0                0                      0                         0                    0                  0                        0                           0                      0                    0                          0                           0                      0                    0                          0                           0                      0                    0                          0                             0                        0                      0
+
+
+name: tsm1_cache
+tags: database=_internal, engine=tsm1, id=13, path=/var/lib/influxdb/data/_internal/monitor/13, retentionPolicy=monitor, walPath=/var/lib/influxdb/wal/_internal/monitor/13
+WALCompactionTimeMs cacheAgeMs cachedBytes diskBytes memBytes snapshotCount writeDropped writeErr writeOk
+------------------- ---------- ----------- --------- -------- ------------- ------------ -------- -------
+0                   4492197    0           0         5233984  0             0            0        511
+
+
+name: tsm1_filestore
+tags: database=_internal, engine=tsm1, id=13, path=/var/lib/influxdb/data/_internal/monitor/13, retentionPolicy=monitor, walPath=/var/lib/influxdb/wal/_internal/monitor/13
+diskBytes numFiles
+--------- --------
+0         0
+
+
+name: tsm1_wal
+tags: database=_internal, engine=tsm1, id=13, path=/var/lib/influxdb/data/_internal/monitor/13, retentionPolicy=monitor, walPath=/var/lib/influxdb/wal/_internal/monitor/13
+currentSegmentDiskBytes oldSegmentsDiskBytes writeErr writeOk
+----------------------- -------------------- -------- -------
+6250935                 971505               0        448
+
+
+name: database
+tags: database=_internal
+numMeasurements numSeries
+--------------- ---------
+12              77
+
+
+name: database
+tags: database=logRequest
+numMeasurements numSeries
+--------------- ---------
+1               185
+
+
+name: database
+tags: database=telegraf
+numMeasurements numSeries
+--------------- ---------
+8               28
+
+
+name: write
+pointReq pointReqLocal req  subWriteDrop subWriteOk writeDrop writeError writeOk writeTimeout
+-------- ------------- ---  ------------ ---------- --------- ---------- ------- ------------
+45075    45075         1347 0            1347       0         0          1347    10
+
+
+name: subscriber
+createFailures pointsWritten writeFailures
+-------------- ------------- -------------
+0              45075         0
+
+
+name: subscriber
+tags: database=telegraf, destination=http://localhost:9092, mode=ANY, name=kapacitor-18b36e2a-b6cd-4e74-9139-92fd4d0ecbbe, retention_policy=autogen
+pointsWritten writeFailures
+------------- -------------
+13694         0
+
+
+name: subscriber
+tags: database=_internal, destination=http://localhost:9092, mode=ANY, name=kapacitor-18b36e2a-b6cd-4e74-9139-92fd4d0ecbbe, retention_policy=monitor
+pointsWritten writeFailures
+------------- -------------
+31381         0
+
+
+name: subscriber
+tags: database=logRequest, destination=http://localhost:9092, mode=ANY, name=kapacitor-18b36e2a-b6cd-4e74-9139-92fd4d0ecbbe, retention_policy=autogen
+pointsWritten writeFailures
+------------- -------------
+0             0
+
+
+name: cq
+queryFail queryOk
+--------- -------
+0         0
+
+
+name: httpd
+tags: bind=:8086
+authFail clientError pingReq pointsWrittenDropped pointsWrittenFail pointsWrittenOK queryReq queryReqDurationNs queryRespBytes req  reqActive reqDurationNs serverError statusReq writeReq writeReqActive writeReqBytes writeReqDurationNs
+-------- ----------- ------- -------------------- ----------------- --------------- -------- ------------------ -------------- ---  --------- ------------- ----------- --------- -------- -------------- ------------- ------------------
+0        3           117     0                    169               13525           420      280748134          199854         1436 1         113920045852  10          0         899      0              2315146       113427472129
+

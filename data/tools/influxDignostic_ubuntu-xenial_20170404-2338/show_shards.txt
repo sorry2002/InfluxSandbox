@@ -1,0 +1,21 @@
+name: telegraf
+id database retention_policy shard_group start_time           end_time             expiry_time          owners
+-- -------- ---------------- ----------- ----------           --------             -----------          ------
+2  telegraf autogen          2           2017-03-20T00:00:00Z 2017-03-27T00:00:00Z 2017-03-27T00:00:00Z 
+9  telegraf autogen          9           2017-03-27T00:00:00Z 2017-04-03T00:00:00Z 2017-04-03T00:00:00Z 
+12 telegraf autogen          12          2017-04-03T00:00:00Z 2017-04-10T00:00:00Z 2017-04-10T00:00:00Z 
+
+
+name: _internal
+id database  retention_policy shard_group start_time           end_time             expiry_time          owners
+-- --------  ---------------- ----------- ----------           --------             -----------          ------
+11 _internal monitor          11          2017-03-28T00:00:00Z 2017-03-29T00:00:00Z 2017-04-05T00:00:00Z 
+13 _internal monitor          13          2017-04-04T00:00:00Z 2017-04-05T00:00:00Z 2017-04-12T00:00:00Z 
+14 _internal monitor          14          2017-04-05T00:00:00Z 2017-04-06T00:00:00Z 2017-04-13T00:00:00Z 
+
+
+name: logRequest
+id database   retention_policy shard_group start_time           end_time             expiry_time          owners
+-- --------   ---------------- ----------- ----------           --------             -----------          ------
+4  logRequest autogen          4           1969-12-29T00:00:00Z 1970-01-05T00:00:00Z 1970-01-05T00:00:00Z 
+

@@ -1,0 +1,12 @@
+name    duration shardGroupDuration replicaN default
+----    -------- ------------------ -------- -------
+autogen 0s       168h0m0s           1        true
+
+name    duration shardGroupDuration replicaN default
+----    -------- ------------------ -------- -------
+monitor 168h0m0s 24h0m0s            1        true
+
+name    duration shardGroupDuration replicaN default
+----    -------- ------------------ -------- -------
+autogen 0s       168h0m0s           1        true
+

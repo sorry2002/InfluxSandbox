@@ -1,0 +1,23 @@
+name: build
+Branch Build Time Commit                                   Version
+------ ---------- ------                                   -------
+master            1bcf3ae74c6b9c4897dab68d513d056277eb24f7 1.2.2
+
+
+name: network
+hostname
+--------
+ubuntu-xenial
+
+
+name: runtime
+GOARCH GOMAXPROCS GOOS  version
+------ ---------- ----  -------
+amd64  2          linux go1.7.4
+
+
+name: system
+PID  currentTime                    started                        uptime
+---  -----------                    -------                        ------
+1190 2017-04-04T23:38:05.841151324Z 2017-04-04T22:23:12.325815955Z 1h14m53.515335706s
+
